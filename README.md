@@ -6,8 +6,8 @@ A mock `test.txt` file and `main.cpp` are included for your benefit. This projec
 to be stand-alone and benefits most from inclusion in other codebases. Nevertheless, you can build
 the mock project with the included Makefile. The following make directives are provided:
 
-`make clean`: removes an existing ./build/ directory and all of its contents
-`make all` / `make`: creates the build directory and compiles to datanode / datanode.exe
+- `make clean`: removes an existing `./build/` directory and all of its contents
+- `make all` / `make`: creates the build directory and compiles to `datanode` / `datanode.exe`
 
 ## Usage
 ### Inclusion
