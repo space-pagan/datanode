@@ -1,0 +1,13 @@
+config_node
+{
+  some_field = "value"
+  some_field2 = 2
+}
+other_config_node
+{
+  other_field = 3.14
+  other_subconfig
+  {
+    sub_field = "2"
+  }
+}
