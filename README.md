@@ -46,3 +46,7 @@ datanode d = parser::load("file/location/here");
 // or load from other istream object
 d = parser::load(std::cin);
 ```
+#### Parser notes
+- Ignores horizontal whitespace unless enclosed in double quotes, e.g. a field containing a string value such as `sub_field = "2"`
+- Does NOT ignore vertical whitespace. Newlines are syntactically important!
+- If a parse error is encountered, a `parse_exception` will be thrown.
